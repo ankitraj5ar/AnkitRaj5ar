@@ -1,106 +1,81 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" width="900" height="220">
+  <defs>
+    <pattern id="grid" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#30363d" opacity="0.6"/>
+    </pattern>
+    <linearGradient id="fade-left" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade-right" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="70%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="20%" stop-color="#388bfd" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#388bfd"/>
+      <stop offset="80%" stop-color="#388bfd" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
 
   <!-- Background -->
-  <rect width="1200" height="280" fill="#0d0d0d"/>
+  <rect width="900" height="220" fill="#0d1117"/>
 
-  <!-- Subtle dot grid — top-right quadrant -->
-  <g opacity="0.07">
-    <circle cx="700" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="740" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="780" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="820" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="860" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="900" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="940" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="980" cy="40"  r="1" fill="#ffffff"/>
-    <circle cx="1020" cy="40" r="1" fill="#ffffff"/>
-    <circle cx="1060" cy="40" r="1" fill="#ffffff"/>
-    <circle cx="1100" cy="40" r="1" fill="#ffffff"/>
-    <circle cx="1140" cy="40" r="1" fill="#ffffff"/>
+  <!-- Dot grid -->
+  <rect width="900" height="220" fill="url(#grid)"/>
 
-    <circle cx="700" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="740" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="780" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="820" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="860" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="900" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="940" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="980" cy="80"  r="1" fill="#ffffff"/>
-    <circle cx="1020" cy="80" r="1" fill="#ffffff"/>
-    <circle cx="1060" cy="80" r="1" fill="#ffffff"/>
-    <circle cx="1100" cy="80" r="1" fill="#ffffff"/>
-    <circle cx="1140" cy="80" r="1" fill="#ffffff"/>
+  <!-- Edge vignettes -->
+  <rect width="900" height="220" fill="url(#fade-left)"/>
+  <rect width="900" height="220" fill="url(#fade-right)"/>
 
-    <circle cx="700" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="740" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="780" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="820" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="860" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="900" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="940" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="980" cy="120"  r="1" fill="#ffffff"/>
-    <circle cx="1020" cy="120" r="1" fill="#ffffff"/>
-    <circle cx="1060" cy="120" r="1" fill="#ffffff"/>
-    <circle cx="1100" cy="120" r="1" fill="#ffffff"/>
-    <circle cx="1140" cy="120" r="1" fill="#ffffff"/>
+  <!-- Accent corner marks — top-left -->
+  <line x1="40" y1="30" x2="70" y2="30" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="40" y1="30" x2="40" y2="60" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
 
-    <circle cx="700" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="740" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="780" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="820" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="860" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="900" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="940" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="980" cy="160"  r="1" fill="#ffffff"/>
-    <circle cx="1020" cy="160" r="1" fill="#ffffff"/>
-    <circle cx="1060" cy="160" r="1" fill="#ffffff"/>
-    <circle cx="1100" cy="160" r="1" fill="#ffffff"/>
-    <circle cx="1140" cy="160" r="1" fill="#ffffff"/>
-  </g>
+  <!-- Accent corner marks — top-right -->
+  <line x1="860" y1="30" x2="830" y2="30" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="860" y1="30" x2="860" y2="60" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
 
-  <!-- Left vertical accent rule -->
-  <line x1="64" y1="56" x2="64" y2="210" stroke="#1e1e1e" stroke-width="1"/>
+  <!-- Accent corner marks — bottom-left -->
+  <line x1="40" y1="190" x2="70" y2="190" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="40" y1="190" x2="40" y2="160" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
 
-  <!-- Primary name -->
+  <!-- Accent corner marks — bottom-right -->
+  <line x1="860" y1="190" x2="830" y2="190" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="860" y1="190" x2="860" y2="160" stroke="#388bfd" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Vertical accent lines flanking name -->
+  <line x1="180" y1="64" x2="180" y2="156" stroke="#388bfd" stroke-width="0.5" opacity="0.3"/>
+  <line x1="720" y1="64" x2="720" y2="156" stroke="#388bfd" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Name — primary identity -->
   <text
-    x="88" y="148"
-    font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
-    font-size="80"
-    font-weight="900"
-    fill="#f0f0f0"
-    letter-spacing="-4"
-  >ANKIT RAJ</text>
+    x="450" y="118"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace"
+    font-size="52"
+    font-weight="300"
+    letter-spacing="12"
+    fill="#e6edf3">
+    [YOUR_NAME]
+  </text>
 
-  <!-- Role line -->
+  <!-- Role / tagline -->
   <text
-    x="92" y="180"
-    font-family="'Courier New', Courier, monospace"
-    font-size="13"
-    fill="#3a3a3a"
-    letter-spacing="5"
-  >SOFTWARE ENGINEER</text>
+    x="450" y="155"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace"
+    font-size="12"
+    font-weight="400"
+    letter-spacing="4"
+    fill="#8b949e">
+    [YOUR_TAGLINE] · [LOCATION]
+  </text>
 
-  <!-- Horizontal accent under role -->
-  <line x1="88" y1="198" x2="360" y2="198" stroke="#1a1a1a" stroke-width="1"/>
-
-  <!-- Status indicator -->
-  <circle cx="92" cy="222" r="3.5" fill="#22c55e" opacity="0.85"/>
-  <text
-    x="106" y="226"
-    font-family="'Courier New', Courier, monospace"
-    font-size="11"
-    fill="#2e2e2e"
-    letter-spacing="2"
-  >OPERATIONAL</text>
-
-  <!-- Right column — architecture tags -->
-  <text x="1148" y="90"  font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">DISTRIBUTED SYSTEMS</text>
-  <text x="1148" y="112" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">EVENT-DRIVEN ARCHITECTURE</text>
-  <text x="1148" y="134" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">ERP PLATFORMS</text>
-  <text x="1148" y="156" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">QUEUE-DRIVEN SYSTEMS</text>
-  <text x="1148" y="178" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">BACKEND INFRASTRUCTURE</text>
-
-  <!-- Subtle right vertical rule -->
-  <line x1="1160" y1="78" x2="1160" y2="190" stroke="#181818" stroke-width="1"/>
-
+  <!-- Bottom accent line -->
+  <line x1="0" y1="205" x2="900" y2="205" stroke="url(#accent-line)" stroke-width="1"/>
 </svg>
