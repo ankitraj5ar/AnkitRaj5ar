@@ -1,217 +1,295 @@
 <div align="center">
-
-# ⚡ SYSTEM.INIT()
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=1000&lines=ANKIT+RAJ;SCALABLE+SYSTEMS+ENGINEER;DISTRIBUTED+SYSTEMS+ARCHITECT;EVENT+DRIVEN+BACKEND+BUILDER;MICROSERVICES+%7C+KAFKA+%7C+RABBITMQ+%7C+ERP" />
-
-<br/>
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=BUILDING%20SYSTEMS%20THAT%20SURVIVE%20SCALE&fontAlign=50&fontAlignY=40&color=0:0f0c29,50:302b63,100:24243e&fontColor=00F7FF&animation=fadeIn&fontSize=38" />
-
-</div>
-
----
-
-# 🧠 WHO_AM_I
-
-```bash
-> whoami
-
-Ankit Raj
-
-Software Engineer obsessed with distributed systems,
-message orchestration, backend scalability,
-and real-world production architecture.
-
-I don't just build APIs.
-I engineer systems that survive concurrency,
-network failures, retries, scale, and chaos.
-```
-
----
-
-# ⚙️ SYSTEM.DESIGN()
-
-<div align="center">
-
-```mermaid
-flowchart LR
-
-A[Client Request] --> B[API Gateway]
-B --> C[Auth Service]
-B --> D[ERP Core]
-D --> E[Kafka Event Bus]
-E --> F[Notification Service]
-E --> G[Analytics Pipeline]
-E --> H[Workflow Engine]
-H --> I[RabbitMQ Workers]
-I --> J[(MySQL)]
-G --> K[(Redis Cache)]
-```
-
-</div>
-
----
-
-# 🚀 TECH_STACK.EXE
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=php,nodejs,go,react,ts,js,mysql,postgres,redis,kafka,rabbitmq,docker,kubernetes,linux,git" />
-
+  <img src="./assets/banner.svg" width="100%" alt="Ankit Raj — Software Engineer"/>
 </div>
 
 <br/>
 
-<div align="center">
-
-| Backend   | Architecture         | Infrastructure | Messaging        |
-| --------- | -------------------- | -------------- | ---------------- |
-| PHP       | Microservices        | Docker         | Kafka            |
-| Node.js   | Event-Driven Systems | Linux          | RabbitMQ         |
-| Go        | Multi-Tenant ERP     | CI/CD          | Queue Workers    |
-| REST APIs | CQRS                 | Scaling        | Async Processing |
-
-</div>
-
----
-
-# 🛰️ ENGINEERING.PHILOSOPHY
-
-<div align="center">
-
-```txt
-Good engineering is invisible.
-Users should never notice the retries,
-failovers, queues, deadlocks, race conditions,
-or the chaos your system survived.
-```
-
-</div>
-
----
-
-# 📊 LIVE_METRICS
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=ankitraj5ar&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff" />
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankitraj5ar&layout=compact&theme=transparent&hide_border=true&title_color=00F7FF&text_color=ffffff" />
+<!----------------------------------------------------------------------
+  SYSTEM OVERVIEW
+----------------------------------------------------------------------->
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=ankitraj5ar&theme=transparent&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
+Software engineer with **3+ years** designing backend systems at scale.
+I work at the intersection of distributed systems, ERP architecture, and event-driven design —
+building platforms that are **correct by construction**, **observable by default**, and **operable under pressure**.
 
-</div>
+Currently engineering a multi-domain ERP platform serving retail, MSME, and agritech verticals.
+I care deeply about how complex business workflows translate into reliable, maintainable systems —
+and how to keep them consistent and predictable as they grow.
+
+<br/>
+
+<!----------------------------------------------------------------------
+  ENGINEERING PHILOSOPHY
+----------------------------------------------------------------------->
 
 ---
 
-# 🧪 CURRENT.EXPERIMENTS
+<br/>
 
-```go
-package main
+### `∿  engineering philosophy`
 
-func main() {
+<br/>
 
-    BuildDistributedSystems()
-
-    ScaleERP()
-
-    LearnKafkaInternals()
-
-    OptimizeDatabaseQueries()
-
-    DesignFaultTolerance()
-
-    AutomateEverything()
-}
+```
+  reliability          >    feature velocity
+  maintainability      >    clever abstractions
+  operational clarity  >    engineering elegance
+  explicit contracts   >    implicit conventions
+  understand the system first, then trust the framework
 ```
 
+<br/>
+
+The systems I design are built to be handed off, debugged at 3am, and still make sense
+six months after the original engineer is gone.
+
+<br/>
+
+<!----------------------------------------------------------------------
+  ARCHITECTURE DOMAINS
+----------------------------------------------------------------------->
+
 ---
 
-# 🔥 ACTIVE_INTERESTS
+<br/>
 
-<div align="center">
+### `⬡  architecture domains`
+
+<br/>
 
 <table>
 <tr>
-<td width="33%">
+<td width="50%" valign="top">
 
-### ⚡ Backend
+**Distributed Systems**
+Consistency models · partition tolerance · failure modes · clock drift · read-your-writes guarantees · split-brain handling
 
-- High Performance APIs
-- Workflow Engines
-- Queue Systems
-- Authentication
-- ERP Architecture
+**Queue-Driven Architecture**
+Kafka · RabbitMQ · Redis Streams · consumer group design · dead-letter semantics · backpressure · retry topology
 
-</td>
-<td width="33%">
-
-### 🧠 System Design
-
-- CQRS
-- Event Sourcing
-- Distributed Transactions
-- Idempotency
-- Fault Tolerance
+**Workflow Orchestration**
+Long-running process design · saga patterns · compensating transactions · workflow state persistence · timeout handling
 
 </td>
-<td width="33%">
+<td width="50%" valign="top">
 
-### ☁️ Infrastructure
+**ERP & Business Systems**
+Multi-tenant isolation · complex domain modeling · cross-domain consistency · audit trails · role-based access · RBAC at scale
 
-- Docker
-- Scaling
-- Observability
-- Logging
-- Service Communication
+**Event-Driven Design**
+Event sourcing · outbox pattern · dual-write safety · schema evolution · fan-out routing · at-least-once delivery
+
+**Infrastructure Thinking**
+Service mesh basics · observability hooks · structured logging · health contracts · graceful degradation · rate limiting design
 
 </td>
 </tr>
 </table>
 
-</div>
+<br/>
+
+<!----------------------------------------------------------------------
+  TECH STACK
+----------------------------------------------------------------------->
 
 ---
 
-# 🌌 DIGITAL_FOOTPRINT
+<br/>
 
-<div align="center">
+### `⚙  stack`
 
-<a href="https://github.com/ankitraj5ar">
-<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=00F7FF" />
-</a>
+<br/>
 
-<a href="https://www.linkedin.com/in/ankitraj5ar">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="mailto:ankitraj5ar@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-</div>
-
----
-
-# 🧬 SYSTEM.STATUS
-
-```yaml
-SYSTEM STATUS: ONLINE
-ARCHITECTURE: DISTRIBUTED
-SCALABILITY: ENABLED
-FAILURE MODE: HANDLED
-QUEUE SYSTEM: ACTIVE
-UPTIME: ∞
+```
+  language        Node.js · TypeScript · Go · PHP (Yii2)
+  messaging       Kafka · RabbitMQ · Redis Streams
+  data            PostgreSQL · MySQL · MongoDB · Redis
+  api             REST · GraphQL
+  infrastructure  Docker · Kubernetes · AWS
+  patterns        Event-Driven · CQRS · Saga · Multi-Tenant · Outbox
 ```
 
+<br/>
+
+<!----------------------------------------------------------------------
+  CURRENT RUNTIME
+----------------------------------------------------------------------->
+
 ---
+
+<br/>
+
+### `◉  current runtime`
+
+<br/>
+
+```
+  ╭─ system.runtime ─────────────────────────────────────────────────────╮
+  │                                                                       │
+  │   node          ankit-raj                                             │
+  │   role          senior software engineer @ dayal infosystems          │
+  │   uptime        3y+                                                   │
+  │   status        ● OPERATIONAL                                         │
+  │                                                                       │
+  │   building  ──  ERP platform · retail · MSME · agritech verticals    │
+  │                 multi-tenant workflow engine · event sourcing layer   │
+  │                                                                       │
+  │   exploring ──  Kafka internals · log compaction · consumer lag       │
+  │                 distributed tracing · schema registry · OTEL          │
+  │                 workflow orchestration patterns · temporal.io          │
+  │                                                                       │
+  │   reading   ──  Designing Data-Intensive Applications — Kleppmann     │
+  │                                                                       │
+  ╰───────────────────────────────────────────────────────────────────────╯
+```
+
+<br/>
+
+<!----------------------------------------------------------------------
+  FEATURED SYSTEMS
+----------------------------------------------------------------------->
+
+---
+
+<br/>
+
+### `◫  featured systems`
+
+<br/>
+
+<table>
+<tr>
+<td valign="top">
+
+**`artemis`** &nbsp;·&nbsp; distributed task queue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Go` `Redis Streams` `Docker`
+
+Redis Streams-backed job queue with priority scheduling, exponential backoff retries, delayed execution windows, and a dead-letter pipeline. Designed for predictable failure semantics — the system degrades gracefully and surfaces errors clearly rather than silently dropping work.
+
+→ [github.com/ankitraj5ar/artemis](https://github.com/ankitraj5ar)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td valign="top">
+
+**`cascade`** &nbsp;·&nbsp; real-time event pipeline &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` `Kafka` `PostgreSQL` `Kubernetes`
+
+Webhook ingestion and routing system processing ~50k events/day at sub-100ms p99. Fan-out to multiple downstream consumers with at-least-once delivery guarantees, idempotency enforcement, and structured dead-letter handling per consumer.
+
+→ [github.com/ankitraj5ar/cascade](https://github.com/ankitraj5ar)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td valign="top">
+
+**`hatchet api`** &nbsp;·&nbsp; multi-tenant B2B API layer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`TypeScript` `Node.js` `PostgreSQL` `GraphQL`
+
+GraphQL + REST API with row-level security, full multi-tenant isolation, rate limiting per tenant tier, and a webhook delivery subsystem with configurable retry logic, exponential backoff, and per-endpoint delivery tracking.
+
+→ [github.com/ankitraj5ar/hatchet](https://github.com/ankitraj5ar)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td valign="top">
+
+**`vault cli`** &nbsp;·&nbsp; secrets manager &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Go` `AES-256` `GPG`
+
+CLI tool for managing secrets across environments. Encrypts values at rest using AES-256, supports team secret sharing via GPG key exchange, and integrates into CI/CD pipelines through stdin/stdout contracts.
+
+→ [github.com/ankitraj5ar/vault-cli](https://github.com/ankitraj5ar)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!----------------------------------------------------------------------
+  GITHUB ACTIVITY
+----------------------------------------------------------------------->
+
+---
+
+<br/>
+
+### `⌁  activity`
+
+<br/>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f0c29,50:302b63,100:24243e" />
+<img
+  height="155"
+  src="https://github-readme-stats.vercel.app/api?username=ankitraj5ar&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=f0f0f0&text_color=444444&icon_color=333333&count_private=true&hide_title=true&hide_rank=false&rank_icon=percentile"
+  alt="GitHub Stats"
+/>
+&nbsp;&nbsp;
+<img
+  height="155"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankitraj5ar&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=f0f0f0&text_color=444444&langs_count=6&hide_title=true"
+  alt="Top Languages"
+/>
 
 </div>
+
+<br/>
+
+<div align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=ankitraj5ar&bg_color=0d0d0d&color=333333&line=1e1e1e&point=444444&hide_border=true&area=true&area_color=1a1a1a"
+    width="96%"
+    alt="Contribution Graph"
+  />
+</div>
+
+<br/>
+
+<!----------------------------------------------------------------------
+  CONTACT
+----------------------------------------------------------------------->
+
+---
+
+<br/>
+
+### `✦  connect`
+
+<br/>
+
+```
+  email      ankitraj5ar@gmail.com
+  linkedin   linkedin.com/in/ankitraj5ar
+  github     github.com/ankitraj5ar
+  web        ankitraj5ar.online
+```
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+  <sub><code>systems that are correct · observable · operable</code></sub>
+</div>
+
+<br/>

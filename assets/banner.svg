@@ -1,0 +1,106 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="#0d0d0d"/>
+
+  <!-- Subtle dot grid — top-right quadrant -->
+  <g opacity="0.07">
+    <circle cx="700" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="740" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="780" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="820" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="860" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="900" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="940" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="980" cy="40"  r="1" fill="#ffffff"/>
+    <circle cx="1020" cy="40" r="1" fill="#ffffff"/>
+    <circle cx="1060" cy="40" r="1" fill="#ffffff"/>
+    <circle cx="1100" cy="40" r="1" fill="#ffffff"/>
+    <circle cx="1140" cy="40" r="1" fill="#ffffff"/>
+
+    <circle cx="700" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="740" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="780" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="820" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="860" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="900" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="940" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="980" cy="80"  r="1" fill="#ffffff"/>
+    <circle cx="1020" cy="80" r="1" fill="#ffffff"/>
+    <circle cx="1060" cy="80" r="1" fill="#ffffff"/>
+    <circle cx="1100" cy="80" r="1" fill="#ffffff"/>
+    <circle cx="1140" cy="80" r="1" fill="#ffffff"/>
+
+    <circle cx="700" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="740" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="780" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="820" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="860" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="900" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="940" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="980" cy="120"  r="1" fill="#ffffff"/>
+    <circle cx="1020" cy="120" r="1" fill="#ffffff"/>
+    <circle cx="1060" cy="120" r="1" fill="#ffffff"/>
+    <circle cx="1100" cy="120" r="1" fill="#ffffff"/>
+    <circle cx="1140" cy="120" r="1" fill="#ffffff"/>
+
+    <circle cx="700" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="740" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="780" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="820" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="860" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="900" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="940" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="980" cy="160"  r="1" fill="#ffffff"/>
+    <circle cx="1020" cy="160" r="1" fill="#ffffff"/>
+    <circle cx="1060" cy="160" r="1" fill="#ffffff"/>
+    <circle cx="1100" cy="160" r="1" fill="#ffffff"/>
+    <circle cx="1140" cy="160" r="1" fill="#ffffff"/>
+  </g>
+
+  <!-- Left vertical accent rule -->
+  <line x1="64" y1="56" x2="64" y2="210" stroke="#1e1e1e" stroke-width="1"/>
+
+  <!-- Primary name -->
+  <text
+    x="88" y="148"
+    font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
+    font-size="80"
+    font-weight="900"
+    fill="#f0f0f0"
+    letter-spacing="-4"
+  >ANKIT RAJ</text>
+
+  <!-- Role line -->
+  <text
+    x="92" y="180"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13"
+    fill="#3a3a3a"
+    letter-spacing="5"
+  >SOFTWARE ENGINEER</text>
+
+  <!-- Horizontal accent under role -->
+  <line x1="88" y1="198" x2="360" y2="198" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Status indicator -->
+  <circle cx="92" cy="222" r="3.5" fill="#22c55e" opacity="0.85"/>
+  <text
+    x="106" y="226"
+    font-family="'Courier New', Courier, monospace"
+    font-size="11"
+    fill="#2e2e2e"
+    letter-spacing="2"
+  >OPERATIONAL</text>
+
+  <!-- Right column — architecture tags -->
+  <text x="1148" y="90"  font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">DISTRIBUTED SYSTEMS</text>
+  <text x="1148" y="112" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">EVENT-DRIVEN ARCHITECTURE</text>
+  <text x="1148" y="134" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">ERP PLATFORMS</text>
+  <text x="1148" y="156" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">QUEUE-DRIVEN SYSTEMS</text>
+  <text x="1148" y="178" font-family="'Courier New', Courier, monospace" font-size="11" fill="#222222" text-anchor="end" letter-spacing="3">BACKEND INFRASTRUCTURE</text>
+
+  <!-- Subtle right vertical rule -->
+  <line x1="1160" y1="78" x2="1160" y2="190" stroke="#181818" stroke-width="1"/>
+
+</svg>
