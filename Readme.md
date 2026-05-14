@@ -30,7 +30,7 @@
 
 #### Languages
 
-![Java](https://img.shields.io/badge/-Java-000?style=for-the-badge&logo=java)
+![Java](https://img.shields.io/badge/-php-000?style=for-the-badge&logo=php)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=javascript)
 ![C](https://img.shields.io/badge/c-000?style=for-the-badge&logo=c&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-000?style=for-the-badge&logo=css3)
