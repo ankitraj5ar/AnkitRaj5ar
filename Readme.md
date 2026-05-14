@@ -1,23 +1,25 @@
 <div align="center">
   <img src="./assets/banner.svg" alt="Ankit Raj - Software Engineer" width="100%" />
 </div>
-
 <br />
-
 <table width="100%">
   <tr>
-    <td width="60%" valign="top">
+    <td width="100%" valign="top">
       <h3>Hi, I'm Ankit Raj</h3>
       <p>
-        I build backend systems that are reliable, readable, and easy to operate. My work usually sits around APIs,
-        services, databases, infrastructure, and the small design decisions that make software easier to maintain.
+        I work on APIs, event-driven architecture, and distributed
+        workflows. I care deeply about correctness, observability, and developer
+        experience. Currently working on an ERP platform focused on retail,
+        MSMEs, and agritech, designing systems that handle complex workflows
+        across these domains. I'm especially interested in how complex business
+        workflows translate into reliable systems, and how to keep them
+        consistent, predictable, and maintainable as they evolve over time.
       </p>
       <p>
-        Currently exploring distributed systems, scalable backend architecture, and developer tooling.
+        Outside of work, I explore system design concepts, study distributed
+        systems, and build small projects to better understand real-world
+        engineering trade-offs.
       </p>
-    </td>
-    <td width="40%" valign="top">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnkitRaj5ar&theme=github_dark" alt="Ankit Raj GitHub stats" width="100%" />
     </td>
   </tr>
 </table>

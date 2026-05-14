@@ -1,93 +1,28 @@
-<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-    <!-- Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Animated line gradient -->
-    <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#facc15"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Transparent base -->
-  <rect width="1600" height="500" rx="32" fill="url(#bgGradient)" opacity="0.92"/>
-
-  <!-- Grid overlay -->
-  <rect width="1600" height="500" rx="32" fill="url(#grid)"/>
-
-  <!-- Animated lines -->
-  <g opacity="0.6" filter="url(#glow)">
-    <line x1="-100" y1="120" x2="1700" y2="420" stroke="url(#lineGradient)" stroke-width="2">
-      <animate attributeName="x1" values="-100;0;-100" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1700;1800;1700" dur="10s" repeatCount="indefinite"/>
-    </line>
-
-    <line x1="-200" y1="400" x2="1600" y2="100" stroke="#38bdf8" stroke-width="1.5">
-      <animate attributeName="x1" values="-200;-50;-200" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1600;1750;1600" dur="7s" repeatCount="indefinite"/>
-    </line>
-
-    <line x1="0" y1="500" x2="1500" y2="50" stroke="#facc15" stroke-width="1">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/>
-    </line>
-  </g>
-
-  <!-- Floating particles -->
-  <g>
-    <circle cx="200" cy="100" r="3" fill="#22d3ee">
-      <animate attributeName="cy" values="100;80;100" dur="4s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="500" cy="300" r="2" fill="#ffffff">
-      <animate attributeName="cy" values="300;260;300" dur="6s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="900" cy="180" r="4" fill="#facc15">
-      <animate attributeName="cy" values="180;140;180" dur="5s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="1300" cy="350" r="3" fill="#38bdf8">
-      <animate attributeName="cy" values="350;320;350" dur="3s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Left content -->
-  <g>
-    <text x="80" y="210"
-      fill="white"
-      font-size="72"
-      font-family="monospace"
-      font-weight="700">
-      Hey! I am ...
-    </text>
-
-    <text x="85" y="285"
-      fill="#d1d5db"
-      font-size="42"
-      font-family="monospace"
-      letter-spacing="2">
-      Fullstack developer
-    </text>
-  </g>
-
-  <!-- Animated github circle -->
-  <g transform="translate(1320 90)">
-    <circle cx="120" cy="120" r="95" fill="white" opacity="0.95">
-      <animate attributeName="r" values="95;102;95" dur="4s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- Simplified GitHub silhouette -->
-    <path d="M120 55C84 55 55 84 55 120C55 149 73 173 98 182C103 183 105 180 105 177V164C77 170 71 152 71 152C66 140 58 137 58 137C47 129 59 129 59 129C71 130 77 142 77 142C88 160 105 155 111 152C112 144 115 139 118 136C95 133 71 124 71 84C71 72 75 63 82 56C81 53 77 40 83 23C83 23 93 20 105 30C115 27 125 26 135 26C145 26 155 27 165 30C177 20 187 23 187 23C193 40 189 53 188 56C195 63 199 72 199 84C199 124 175 133 152 136C156 140 160 147 160 158V177C160 180 162 183 167 182C192 173 210 149 210 120C210 84 181 55 145 55H120Z"
-      fill="#020617"/>
-  </g>
-
-  <!-- Border -->
-  <rect x="3" y="3" width="1594" height="494" rx="29" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
-</svg>
+<table width="100%">
+  <tr>
+    <td width="60%" valign="top">
+      <h3>Hi, I'm Ankit Raj</h3>
+      <p>
+        I focus on scalable APIs, event-driven architecture, and distributed
+        workflows. I care deeply about correctness, observability, and developer
+        experience. Currently working on an ERP platform focused on retail,
+        MSMEs, and agritech, designing systems that handle complex workflows
+        across these domains. I'm especially interested in how complex business
+        workflows translate into reliable systems, and how to keep them
+        consistent, predictable, and maintainable as they evolve over time.
+      </p>
+      <p>
+        Outside of work, I explore system design concepts, study distributed
+        systems, and build small projects to better understand real-world
+        engineering trade-offs.
+      </p>
+    </td>
+    <td width="40%" valign="top">
+      <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnkitRaj5ar&theme=github_dark"
+        alt="Ankit Raj GitHub stats"
+        width="100%"
+      />
+    </td>
+  </tr>
+</table>
