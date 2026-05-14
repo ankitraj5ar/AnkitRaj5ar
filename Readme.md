@@ -28,86 +28,56 @@
 
 ### Tech stack
 
-#### Languages
+#### Languages/Tools
 
 ![php](https://img.shields.io/badge/-php-000?style=for-the-badge&logo=php)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=javascript)
+![Typescript](https://img.shields.io/badge/-typescript-000?style=for-the-badge&logo=typescript)
 ![go](https://img.shields.io/badge/-go-000?style=for-the-badge&logo=go)
-![C++](https://img.shields.io/badge/c++-000?style=for-the-badge&logo=c++&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-000?style=for-the-badge&logo=css3)
+![C++](https://img.shields.io/badge/c++-000?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rabbitmq](https://img.shields.io/badge/-Rabbitmq-000?style=for-the-badge&logo=Rabbitmq)
+![kafka](https://img.shields.io/badge/-Kafka-000?style=for-the-badge&logo=apache)
+![CSS](https://img.shields.io/badge/-CSS-000?style=for-the-badge&logo=css)
 ![HTML5](https://img.shields.io/badge/-HTML5-000?style=for-the-badge&logo=html5)
-![Markdown](https://img.shields.io/badge/-Markdown-000?style=for-the-badge&logo=markdown)
+![Git](https://img.shields.io/badge/-Git-000?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github)
+![GitLab](https://img.shields.io/badge/-GitLab-000?style=for-the-badge&logo=GitLab)
 
-#### JS Framework/Library
+#### Framework/Library
 
 ![Next JS](https://img.shields.io/badge/-NextJS-000?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/-ReactJS-000?style=for-the-badge&logo=react)
 ![Threejs](https://img.shields.io/badge/-ThreeJS-000?style=for-the-badge&logo=three.js)
-![Angular](https://img.shields.io/badge/-AngularJS-000?style=for-the-badge&logo=angular)
-![Svelte](https://img.shields.io/badge/-svelte-000?style=for-the-badge&logo=svelte&logoColor=orange)
-
-#### CSS Framework/Library/Pre-processors
-
+![NodeJS](https://img.shields.io/badge/-NodeJS-000?style=for-the-badge&logo=node.js)
+![bunJs](https://img.shields.io/badge/-BunJS-000?style=for-the-badge&logo=bun)
+![Express.js](https://img.shields.io/badge/-ExpressJS-000?style=for-the-badge&logo=express)
+![yii2](https://img.shields.io/badge/-yii2-000?style=for-the-badge&logo=yii&logoColor=green)
+![Jest](https://img.shields.io/badge/-Jest-000?style=for-the-badge&logo=jest)
+![GraphQL](https://img.shields.io/badge/-graphQL-000?style=for-the-badge&logo=graphql&logoColor=pink)
+![RestApi](https://img.shields.io/badge/-Rest_Api-000?style=for-the-badge&logo=fastapi)
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-000?style=for-the-badge&logo=tailwind-css)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?style=for-the-badge&logo=bootstrap)
-![MUI](https://img.shields.io/badge/-MUI-000?style=for-the-badge&logo=mui)
-![PostCSS](https://img.shields.io/badge/-PostCSS-000?style=for-the-badge&logo=postcss)
-![SASS](https://img.shields.io/badge/-SASS-000?style=for-the-badge&logo=sass)
+![Jquey](https://img.shields.io/badge/-jquery-000?style=for-the-badge&logo=jquery)
 
-#### Design/Visual Tools
+#### Database
 
-![Figma](https://img.shields.io/badge/-Figma-000?style=for-the-badge&logo=figma)
-![Framer](https://img.shields.io/badge/-Framer-000?style=for-the-badge&logo=framer)
-![Adobe Lightroom](https://img.shields.io/badge/-Adobe%20Lightroom-000?style=for-the-badge&logo=adobe%20lightroom)
-![Canva](https://img.shields.io/badge/-Canva-000?style=for-the-badge&logo=canva)
-![Adobe After Effects](https://img.shields.io/badge/-Adobe%20After%20Effects-000?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-000?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-
-#### Database/State
-
-![Firebase](https://img.shields.io/badge/-Firebase-000?style=for-the-badge&logo=firebase)
+![Mysql](https://img.shields.io/badge/-mysql-000?style=for-the-badge&logo=mysql&logoColor=orange)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?style=for-the-badge&logo=PostgreSQL)
+![redis](https://img.shields.io/badge/-redis-000?style=for-the-badge&logo=redis)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-000?style=for-the-badge&logo=mongodb)
-![MobX](https://img.shields.io/badge/-MobX-000?style=for-the-badge&logo=mobx)
-
-#### Backend
-
-![NodeJS](https://img.shields.io/badge/-NodeJS-000?style=for-the-badge&logo=node.js&logoColor=pink)
-![Express.js](https://img.shields.io/badge/-ExpressJS-000?style=for-the-badge&logo=express)
-![API](https://img.shields.io/badge/-API-000?style=for-the-badge&logo=fastapi)
-
-#### Web Hosting
-
-![Vercel](https://img.shields.io/badge/-Vercel-000?style=for-the-badge&logo=vercel)
-![Heroku](https://img.shields.io/badge/-Heroku-000?style=for-the-badge&logo=heroku)
 ![Firebase](https://img.shields.io/badge/-Firebase-000?style=for-the-badge&logo=firebase)
+
+#### Infrastructure & Concepts
+
+![Docker](https://img.shields.io/badge/-Docker-000?style=for-the-badge&logo=docker)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?style=for-the-badge&logo=Kubernetes)
+![AWS](https://img.shields.io/badge/-aws-000?style=for-the-badge&logo=aws_cloud)
+![Jenkins](https://img.shields.io/badge/-jenkins-000?style=for-the-badge&logo=jenkins)
+![Vercel](https://img.shields.io/badge/-Vercel-000?style=for-the-badge&logo=vercel)
+![GitHub Actions](https://img.shields.io/badge/-github%20actions-000?style=for-the-badge&logo=githubactions)
+![Digital Ocean](https://img.shields.io/badge/-digital_ocean-000?style=for-the-badge&logo=digital_ocean)
 ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-000?style=for-the-badge&logo=github)
 ![Netlify](https://img.shields.io/badge/-Netlify-000?style=for-the-badge&logo=netlify)
-
-#### CI/CD
-
-![CircleCI](https://img.shields.io/badge/-circle%20ci-000?style=for-the-badge&logo=circleci)
-![GitHub Actions](https://img.shields.io/badge/-github%20actions-000?style=for-the-badge&logo=githubactions)
-![Jenkins](https://img.shields.io/badge/-jenkins-000?style=for-the-badge&logo=jenkins)
-
-#### Package Manager
-
-![NPM](https://img.shields.io/badge/-NPM-000?style=for-the-badge&logo=npm)
-![Yarn](https://img.shields.io/badge/-yarn-000?style=for-the-badge&logo=yarn)
-
-#### Version Control
-
-![Git](https://img.shields.io/badge/-Git-000?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github)
-
----
-
-### Featured work
-
-| Project            | What it shows                                                                 | Stack                         |
-| ------------------ | ----------------------------------------------------------------------------- | ----------------------------- |
-| [Project One](#)   | A backend service with clean API design and database modeling.                | Java, Spring, PostgreSQL      |
-| [Project Two](#)   | A distributed or event-driven system with queues, workers, and observability. | Node.js, Redis, Docker        |
-| [Project Three](#) | A developer tool, automation script, or dashboard that improves workflow.     | Python, Linux, GitHub Actions |
 
 ---
 
@@ -127,18 +97,30 @@
 ### Connect
 
 <p align="center">
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <span>
+  <a href="https://www.linkedin.com/in/ankitraj5ar/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>&nbsp;
+</span>
+   <span>
+  <a href="https://x.com/ankitraj5ar">
+    <img
+      src="https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=x&logoColor=white"
+      alt="X"
+    />
+  </a>&nbsp;
+   </span>
+  <span>
+  <a href="https://ankitraj5ar.online">
+    <img
+      src="https://img.shields.io/badge/Website-111827?style=for-the-badge&logo=safari&logoColor=white"
+      alt="Website"
+    />
   </a>
-  <a href="https://www.linkedin.com/in/your-linkedin/">
-    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/your-handle">
-    <img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="https://your-website.com">
-    <img src="https://img.shields.io/badge/Website-0D1117?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
-  </a>
+  </span>
 </p>
 
 <div align="center">
