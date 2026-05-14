@@ -1,9 +1,3 @@
-<!-- ============================================================
-     GITHUB PROFILE README
-     Design System: Signal Terminal
-     Aesthetic: Distributed Systems Console · Minimalist Engineering
-     ============================================================ -->
-
 <div align="center">
 
 <img src="./assets/banner.svg" alt="[YOUR_NAME]" width="100%" />
