@@ -41,26 +41,22 @@
   <g transform="translate(92 106)">
     <text class="eyebrow" x="0" y="0" opacity="0">
       BACKEND DEVELOPER
-      <animate attributeName="opacity" values="0;1" dur="1.25s" begin="0s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="1.25s" begin="0s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0s" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" fill="freeze"/>
     </text>
 
     <text class="title" x="0" y="112" opacity="0">
       Ankit Raj
-      <animate attributeName="opacity" values="0;1" dur="1.45s" begin="0.12s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 14;0 0" dur="1.45s" begin="0.12s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="1.8s" begin="0.18s" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" fill="freeze"/>
     </text>
 
     <text class="subtitle" x="2" y="178" opacity="0">
       Distributed systems / APIs / infrastructure
-      <animate attributeName="opacity" values="0;1" dur="1.45s" begin="0.32s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="1.45s" begin="0.32s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="1.8s" begin="0.42s" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" fill="freeze"/>
     </text>
 
     <text class="note" x="2" y="232" opacity="0">
       reliable systems, written with clarity
-      <animate attributeName="opacity" values="0;1" dur="1.45s" begin="0.52s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="1.45s" begin="0.52s" calcMode="spline" keyTimes="0;1" keySplines="0.22 1 0.36 1" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="1.8s" begin="0.66s" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" fill="freeze"/>
     </text>
   </g>
 </svg>
