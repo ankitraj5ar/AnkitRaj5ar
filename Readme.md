@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Ankit Raj - Backend Developer" width="100%" />
+  <img src="./assets/banner.svg" alt="Ankit Raj - Software Engineer" width="100%" />
 </div>
 
 <br />
@@ -43,11 +43,11 @@
 
 ### Featured work
 
-| Project | What it shows | Stack |
-| --- | --- | --- |
-| [Project One](#) | A backend service with clean API design and database modeling. | Java, Spring, PostgreSQL |
-| [Project Two](#) | A distributed or event-driven system with queues, workers, and observability. | Node.js, Redis, Docker |
-| [Project Three](#) | A developer tool, automation script, or dashboard that improves workflow. | Python, Linux, GitHub Actions |
+| Project            | What it shows                                                                 | Stack                         |
+| ------------------ | ----------------------------------------------------------------------------- | ----------------------------- |
+| [Project One](#)   | A backend service with clean API design and database modeling.                | Java, Spring, PostgreSQL      |
+| [Project Two](#)   | A distributed or event-driven system with queues, workers, and observability. | Node.js, Redis, Docker        |
+| [Project Three](#) | A developer tool, automation script, or dashboard that improves workflow.     | Python, Linux, GitHub Actions |
 
 ---
 
