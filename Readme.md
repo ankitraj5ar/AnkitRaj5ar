@@ -2,7 +2,7 @@
   <img src="./assets/banner.svg" alt="Ankit Raj - Software Engineer" width="100%" />
 </div>
 <br />
-<table width="100%">
+<table width="100%" style="border:none;">
   <tr>
     <td width="100%" valign="top">
       <h3>Hi, I'm Ankit Raj</h3>
