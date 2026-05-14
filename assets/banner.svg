@@ -1,124 +1,66 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="48%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0B1020"/>
-    </linearGradient>
+  <style>
+    .eyebrow {
+      fill: #57606A;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 20px;
+      font-weight: 650;
+      letter-spacing: 5px;
+    }
 
-    <linearGradient id="nameGradient" x1="70" y1="0" x2="640" y2="0">
-      <stop offset="0%" stop-color="#F8FAFC"/>
-      <stop offset="48%" stop-color="#93C5FD"/>
-      <stop offset="100%" stop-color="#A78BFA"/>
-    </linearGradient>
+    .title {
+      fill: #24292F;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
 
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
-    </linearGradient>
+    .subtitle {
+      fill: #57606A;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 32px;
+      font-weight: 420;
+    }
 
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#334155" stroke-width="1" opacity="0.28"/>
-      <circle cx="0" cy="0" r="1.8" fill="#64748B" opacity="0.45"/>
-    </pattern>
+    .note {
+      fill: #6E7781;
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 22px;
+    }
 
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+    @media (prefers-color-scheme: dark) {
+      .eyebrow { fill: #8B949E; }
+      .title { fill: #F0F6FC; }
+      .subtitle { fill: #8B949E; }
+      .note { fill: #6E7681; }
+    }
 
-  <rect x="0" y="0" width="1600" height="420" rx="30" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1600" height="420" rx="30" fill="url(#grid)" opacity="0.55"/>
+  </style>
 
-  <rect x="-300" y="-40" width="320" height="520" fill="url(#scan)" transform="rotate(9 800 210)">
-    <animate attributeName="x" values="-320;1680" dur="8s" repeatCount="indefinite"/>
-  </rect>
-
-  <circle cx="1280" cy="110" r="190" fill="#2563EB" opacity="0.09">
-    <animate attributeName="r" values="165;205;165" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1395" cy="285" r="150" fill="#7C3AED" opacity="0.08">
-    <animate attributeName="r" values="130;170;130" dur="8s" repeatCount="indefinite"/>
-  </circle>
-
-  <g transform="translate(70 82)">
-    <text x="0" y="0" font-family="Consolas, Menlo, Monaco, monospace" font-size="24" fill="#38BDF8" opacity="0.9">
-      &gt; hello_world.sh
+  <g transform="translate(92 106)">
+    <text class="eyebrow" x="0" y="0" opacity="0">
+      BACKEND DEVELOPER
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.8s" begin="0s" fill="freeze"/>
     </text>
 
-    <text x="0" y="96" font-family="Consolas, Menlo, Monaco, monospace" font-size="76" font-weight="700" fill="url(#nameGradient)">
+    <text class="title" x="0" y="112" opacity="0">
       Ankit Raj
-      <animate attributeName="opacity" values="0;1" dur="1.1s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="0.15s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="1s" begin="0.15s" fill="freeze"/>
     </text>
 
-    <text x="2" y="154" font-family="Consolas, Menlo, Monaco, monospace" font-size="34" fill="#CBD5E1">
-      Backend Developer | Distributed Systems
-      <animate attributeName="opacity" values="0;0.9" dur="1.8s" fill="freeze"/>
+    <text class="subtitle" x="2" y="178" opacity="0">
+      Distributed systems / APIs / infrastructure
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="1s" begin="0.35s" fill="freeze"/>
     </text>
 
-    <text x="2" y="206" font-family="Consolas, Menlo, Monaco, monospace" font-size="24" fill="#94A3B8">
-      building reliable APIs, services, and infrastructure
-      <animate attributeName="opacity" values="0;0.85" dur="2.4s" fill="freeze"/>
+    <text class="note" x="2" y="232" opacity="0">
+      reliable systems, written with clarity
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="0.55s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="1s" begin="0.55s" fill="freeze"/>
     </text>
-
-    <rect x="622" y="45" width="16" height="70" fill="#60A5FA" rx="3">
-      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
-    </rect>
   </g>
-
-  <g transform="translate(1000 62)" filter="url(#softGlow)">
-    <path d="M80 110 L190 54 L315 118 L430 54 L515 150 L392 270 L252 218 L110 286 L42 178 Z" stroke="#60A5FA" stroke-width="2" opacity="0.45" fill="none">
-      <animate attributeName="opacity" values="0.2;0.55;0.2" dur="5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M190 54 L252 218 L430 54 M315 118 L392 270 M80 110 L252 218 M110 286 L315 118" stroke="#A78BFA" stroke-width="1.5" opacity="0.35" fill="none">
-      <animate attributeName="opacity" values="0.15;0.45;0.15" dur="6s" repeatCount="indefinite"/>
-    </path>
-
-    <g fill="#E0F2FE">
-      <circle cx="80" cy="110" r="8">
-        <animate attributeName="r" values="6;10;6" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="190" cy="54" r="7">
-        <animate attributeName="r" values="5;9;5" dur="4.1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="315" cy="118" r="9">
-        <animate attributeName="r" values="7;11;7" dur="3.7s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="430" cy="54" r="7">
-        <animate attributeName="r" values="5;9;5" dur="4.8s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="515" cy="150" r="8">
-        <animate attributeName="r" values="6;10;6" dur="3.9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="392" cy="270" r="8">
-        <animate attributeName="r" values="6;10;6" dur="4.4s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="252" cy="218" r="10">
-        <animate attributeName="r" values="8;12;8" dur="3.4s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="110" cy="286" r="7">
-        <animate attributeName="r" values="5;9;5" dur="4.6s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="42" cy="178" r="7">
-        <animate attributeName="r" values="5;9;5" dur="4.2s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <g font-family="Consolas, Menlo, Monaco, monospace" font-size="19" fill="#93C5FD" opacity="0.86">
-      <text x="128" y="145">{ api }</text>
-      <text x="300" y="202">queue</text>
-      <text x="382" y="126">cache</text>
-      <text x="148" y="248">db</text>
-    </g>
-  </g>
-
-  <line x1="66" y1="364" x2="1534" y2="364" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
-  <line x1="66" y1="364" x2="1534" y2="364" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-dasharray="260 1220">
-    <animate attributeName="stroke-dashoffset" values="0;-1480" dur="7s" repeatCount="indefinite"/>
-  </line>
 </svg>
