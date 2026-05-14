@@ -1,22 +1,20 @@
 <div align="center">
   <img src="./assets/banner.svg" alt="Ankit Raj - Software Engineer" width="100%" />
 </div>
+
 <br />
+
 <div>
   <h3>Hi, I'm Ankit Raj</h3>
 
   <p>
-    I work on APIs, event-driven architecture, and distributed workflows.
-    I care deeply about correctness, observability, and developer experience.
-
-    Currently working on an ERP platform focused on retail, MSMEs, and
-    agritech, designing systems that handle complex workflows across these
-    domains.
-
-    I'm especially interested in how complex business workflows translate
-    into reliable systems, and how to keep them consistent, predictable,
-    and maintainable as they evolve over time.
-
+    I work on APIs, event-driven architecture, and distributed workflows. I care
+    deeply about correctness, observability, and developer experience. Currently
+    working on an ERP platform focused on retail, MSMEs, and agritech, designing
+    systems that handle complex workflows across these domains. I'm especially
+    interested in how complex business workflows translate into reliable
+    systems, and how to keep them consistent, predictable, and maintainable as
+    they evolve over time.
   </p>
 
   <p>
