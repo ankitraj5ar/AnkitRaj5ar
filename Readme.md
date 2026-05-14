@@ -98,7 +98,7 @@
 
 <p align="center">
   <span>
-  <a href="https://www.linkedin.com/in/ankitraj5ar/">
+  <a href="https://www.linkedin.com/in/ankitraj5ar/" target="_blank">
     <img
       src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=white"
       alt="LinkedIn"
@@ -106,7 +106,7 @@
   </a>&nbsp;
 </span>
    <span>
-  <a href="https://x.com/ankitraj5ar">
+  <a href="https://x.com/ankitraj5ar" target="_blank">
     <img
       src="https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=x&logoColor=white"
       alt="X"
@@ -114,7 +114,7 @@
   </a>&nbsp;
    </span>
   <span>
-  <a href="https://ankitraj5ar.online">
+  <a href="https://ankitraj5ar.online" target="_blank">
     <img
       src="https://img.shields.io/badge/Website-111827?style=for-the-badge&logo=safari&logoColor=white"
       alt="Website"
@@ -124,5 +124,5 @@
 </p>
 
 <div align="center">
-  <sub>Backend Developer | Distributed Systems | AnkitRaj5ar</sub>
+  <sub>Software Engineer | Distributed Systems | AnkitRaj5ar</sub>
 </div>
