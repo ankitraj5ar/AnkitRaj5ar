@@ -30,11 +30,11 @@
 
 #### Languages/Tools
 
-![php](https://img.shields.io/badge/-php-000?style=for-the-badge&logo=php)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=javascript)
 ![Typescript](https://img.shields.io/badge/-typescript-000?style=for-the-badge&logo=typescript)
 ![go](https://img.shields.io/badge/-go-000?style=for-the-badge&logo=go)
 ![C++](https://img.shields.io/badge/c++-000?style=for-the-badge&logo=cplusplus&logoColor=white)
+![php](https://img.shields.io/badge/-php-000?style=for-the-badge&logo=php)
 ![Rabbitmq](https://img.shields.io/badge/-Rabbitmq-000?style=for-the-badge&logo=Rabbitmq)
 ![kafka](https://img.shields.io/badge/-Kafka-000?style=for-the-badge&logo=apache)
 ![CSS](https://img.shields.io/badge/-CSS-000?style=for-the-badge&logo=css)
