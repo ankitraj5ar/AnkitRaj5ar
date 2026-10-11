@@ -124,5 +124,5 @@
 </p>
 
 <div align="center">
-  <sub>Software Engineer | Distributed Systems | AnkitRaj5ar</sub>
+  <sub>Designing for scale. | Curious by nature. | Always learning.</sub>
 </div>
